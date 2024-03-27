@@ -1,0 +1,199 @@
+body {
+    font-family: 'League Spartan';
+    font-size: 15px;
+
+    background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+main {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
+}
+
+.top {
+    display: flex;
+}
+
+.header {
+    /* width: 100%; */
+    width: 30rem;
+}
+
+.praise {
+    color: hsl(300, 43%, 22%);
+
+    font-size: 4rem;
+    font-weight: 600;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    line-height: 4rem;
+}
+
+.mission {
+    color: hsl(303, 10%, 53%);
+
+    font-size: 1.3rem;
+}
+
+.reviews {
+    margin-left: auto;
+}
+
+.review-1, .review-2, .review-3 {
+    display: flex;
+    align-items: center;
+
+    background-color: hsl(300, 24%, 96%);
+
+    margin-bottom: 1.5rem;
+
+    padding-left: 2.5rem;
+
+    border-radius: 10px;
+
+    width: 100%;
+}
+
+.review-1 {
+    margin-top: 3rem;
+}
+
+.review-2 {
+    margin-left: 3rem;
+}
+
+.review-3 {
+    margin-left: 6rem;
+}
+
+.comment {
+    color: hsl(300, 43%, 22%);
+    
+    margin-left: 2.5rem;
+
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.bottom {
+    margin-top: 5rem;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.t1, .t2, .t3 {
+    background-color: hsl(300, 43%, 22%);
+
+    border-radius: 10px;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    height: 100%;
+
+
+    margin-right: 2rem;
+}
+
+.t2 {
+    margin-top: 1rem;
+}
+
+.t3 {
+    margin-top: 2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-left: 1rem;
+}
+
+.pfp {
+    border-radius: 50%;
+
+    height: 2.5rem;
+}
+
+.name {
+    color: white;
+
+    font-weight: 600;
+    font-size: 1rem;
+
+    margin-bottom: 0;
+}
+
+.sub {
+    color: hsl(333, 80%, 67%);
+    
+    font-size: 1rem;
+    font-weight: 300;
+
+    margin-top: 0;
+}
+
+.quote {
+    color: white;
+
+    font-size: 1.2rem;
+
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 5rem;
+    }
+
+    .top {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .reviews {
+        margin-left: 0;
+    }
+
+    .review-1, .review-2, .review-3 {
+        flex-direction: column;
+        padding-top: 1.5rem;
+        padding-left: 0;
+    }
+
+    .review-2 {
+        margin-left: 0;
+    }
+    
+    .review-3 {
+        margin-left: 0;
+    }
+
+    .comment {
+        margin-left: 0;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .t1, .t2, .t3 {
+        margin-right: 0;
+    }
+}
